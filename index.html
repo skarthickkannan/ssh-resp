@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple BoxShadow</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <div class="header__left">
+          <a href="/">Simple BoxShadow</a>
+        </div>
+        <div class="header__right">
+          <a href="/">About</a>
+          <a href="/">Help</a>
+        </div>
+      </header>
+      <div class="grid">
+        <div id="shadow" class="shadow"></div>
+        <div class="text">
+          <p id="textbox"></p>
+        </div>
+
+        <div class="left">
+          <div class="gridtext">
+            <p id="gridtextbox"></p>
+          </div>
+          <div class="slidecontainer1 slid">
+            <label for="slider">X value</label>
+            <input
+              type="range"
+              min="1"
+              max="100"
+              value="2"
+              class="slider"
+              id="myRange"
+            />
+          </div>
+          <div class="slidecontainer2 slid">
+            <label for="slider">Y value</label>
+            <input
+              type="range"
+              min="1"
+              max="100"
+              value="2"
+              class="slider"
+              id="myRange1"
+            />
+          </div>
+          <div class="slidecontainer3 slid">
+            <label for="slider">blur value</label>
+
+            <input
+              type="range"
+              min="1"
+              max="100"
+              value="2"
+              class="slider"
+              id="myRange2"
+            />
+          </div>
+          <div class="slidecontainer4 slid">
+            <label for="slider">Spread value</label>
+            <input
+              type="range"
+              min="1"
+              max="100"
+              value="2"
+              class="slider"
+              id="myRange3"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <small>&copy;Copyright@2021 boxShadow</small>
+    </div>
+    <script src="./main.js"></script>
+  </body>
+</html>
